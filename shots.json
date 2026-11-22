@@ -1,0 +1,6 @@
+[
+  { "name": "1-heist-cover.jpg", "query": "?shot=1" },
+  { "name": "2-hacking-laser-grid.jpg", "query": "?shot=2" },
+  { "name": "3-vault-breach.jpg", "query": "?shot=3" },
+  { "name": "4-alarm-escape.jpg", "query": "?shot=4" }
+]
