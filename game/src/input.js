@@ -1,4 +1,5 @@
 // Input handling module for Cyber Heist: Shadow Protocol.
+// Build Revision: v1.2.0-heist-input-revised
 // Captures keyboard, mouse, and touch events mapped to viewport coordinates.
 
 import { VIEWPORT } from './config.js';

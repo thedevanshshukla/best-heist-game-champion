@@ -1,10 +1,9 @@
 // Web Audio API procedural sound synthesizer for Cyber Heist: Shadow Protocol.
+// Build Revision: v1.2.0-heist-sound-revised
 // All sounds are synthesized dynamically on the fly with zero external audio assets.
 
 let audioCtx = null;
 let ambientGain = null;
-let heartbeatOsc = null;
-let heartbeatTimer = null;
 let isMuted = false;
 
 function getAudioContext() {
