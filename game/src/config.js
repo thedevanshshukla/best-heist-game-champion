@@ -95,6 +95,14 @@ export const ALARM_THRESHOLDS = {
   LOCKDOWN: 100,
 };
 
+export const CONTROLS_GUIDE = [
+  { key: 'WASD / Arrows', action: 'Move Operative' },
+  { key: 'Shift', action: 'Sprint (Noisy)' },
+  { key: 'C', action: 'Crouch (Silent)' },
+  { key: 'Space / E', action: 'Interact / Hack / Vent' },
+  { key: '1 - 4', action: 'Deploy Gadget' },
+];
+
 export const THEME = {
   bg: '#070a12',
   floorGrid: 'rgba(0, 240, 255, 0.04)',

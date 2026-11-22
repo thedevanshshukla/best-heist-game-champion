@@ -547,6 +547,12 @@ function drawHUD(ctx, world) {
   ctx.fillStyle = world.alarm > 60 ? '#ef4444' : world.alarm > 30 ? '#eab308' : '#0284c7';
   ctx.fillRect(alarmBarX, alarmBarY, fillW, alarmBarH);
 
+  // Controls prompt
+  ctx.fillStyle = '#64748b';
+  ctx.font = '9px monospace';
+  ctx.textAlign = 'left';
+  ctx.fillText('WASD: MOVE | SHIFT: SPRINT | C: SNEAK | SPACE: HACK/CRACK | 1-4: GADGETS', 24, 72);
+
   // Meter Text
   ctx.fillStyle = '#ffffff';
   ctx.font = 'bold 11px monospace';

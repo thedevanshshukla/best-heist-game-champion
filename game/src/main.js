@@ -58,6 +58,13 @@ function handleFirstInteraction() {
 window.addEventListener('click', handleFirstInteraction, { once: true });
 window.addEventListener('keydown', handleFirstInteraction, { once: true });
 
+// Keyboard shortcut to restart mission
+window.addEventListener('keydown', (e) => {
+  if (e.code === 'KeyR' && !shotParam) {
+    world.reset();
+  }
+});
+
 if (shotParam) {
   // Staged screenshot mode for Chrome headless capture
   stageShot(shotParam, world);
