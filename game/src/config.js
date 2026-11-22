@@ -1,6 +1,9 @@
 // Game configuration and constants for Cyber Heist: Shadow Protocol.
+// Build Revision: v1.2.0-heist-revised
 // Defines field dimensions, player stealth capabilities, guard AI parameters,
 // security systems (cameras, lasers, vents), gadget costs, and cyber-noir styling.
+
+export const VERSION = '1.2.0';
 
 export const VIEWPORT = {
   width: 1280,

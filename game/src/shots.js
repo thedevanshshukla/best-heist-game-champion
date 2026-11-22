@@ -1,4 +1,5 @@
 // Deterministic screenshot staging module for Cyber Heist: Shadow Protocol.
+// Build Revision: v1.2.0-heist-revised
 // Configures specific high-stakes gameplay states for headless Chrome screenshot capture.
 
 import { MISSION_STATUS } from './world.js';
